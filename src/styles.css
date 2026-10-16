@@ -1,0 +1,20 @@
+:root{--ivory:#FAF7F2;--champ:#E8DCCB;--char:#222;--rose:#C88F91;--gold:#B69A68}
+body{background:var(--ivory);color:var(--char);font-family:Inter,sans-serif}
+h1,h2,h3,h4,.brand{font-family:'Cormorant Garamond',serif;font-weight:600}
+.brand{font-size:1.6rem;color:var(--char);text-decoration:none}
+a{color:inherit}
+.btn-gold{background:var(--char);color:#fff;border-radius:0;padding:.7rem 1.4rem;border:1px solid var(--char);transition:.2s}.btn-gold:hover{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn-line{background:transparent;color:var(--char);border:1px solid var(--char);border-radius:0;padding:.7rem 1.4rem}.btn-line:hover{background:var(--char);color:#fff}
+.nav a.l{margin:0 .8rem;text-decoration:none;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase}.nav a.l:hover{color:var(--gold)}
+.hero{min-height:80vh;background:linear-gradient(rgba(34,34,34,.45),rgba(34,34,34,.45)),url(https://picsum.photos/seed/hero/1600/900) center/cover;color:#fff;display:flex;align-items:center}
+.card-p{background:#fff;border:1px solid var(--champ);height:100%;transition:.25s}.card-p:hover{box-shadow:0 8px 24px rgba(0,0,0,.08);transform:translateY(-2px)}
+.card-p img{width:100%;aspect-ratio:3/4;object-fit:cover;background:var(--champ)}
+.price s{color:#888;font-size:.85rem;margin-left:.4rem}
+.cat{display:block;padding:2rem;background:var(--champ);text-decoration:none;height:100%}.cat:hover{background:var(--gold);color:#fff}
+.opt{border:1px solid var(--champ);background:#fff;padding:.5rem .8rem;cursor:pointer}.opt.on{border-color:var(--gold);background:var(--champ)}
+.sw{width:34px;height:34px;border-radius:50%;border:2px solid #fff;outline:1px solid var(--champ);cursor:pointer}.sw.on{outline:2px solid var(--gold)}
+.toast-c{position:fixed;bottom:1.5rem;left:50%;transform:translateX(-50%);background:var(--char);color:#fff;padding:.8rem 1.5rem;z-index:2000}
+.ann{background:var(--char);color:var(--champ);font-size:.85rem;text-align:center;padding:.4rem}
+footer{background:var(--char);color:var(--champ)}footer a{text-decoration:none}
+.preview{background:#fff;border:1px solid var(--champ);padding:1rem}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
